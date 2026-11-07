@@ -503,3 +503,30 @@ body {
     line-height: 1.8;
     font-size: 15px;
 }
+
+
+
+
+/* CONTACT CARD */
+
+.contact-card {
+    background-color: rgba(15, 25, 35, 0.94);
+    border-left: 3px solid var(--ice-blue);
+    border-radius: 8px;
+    padding: 25px;
+    margin-top: 15px;
+}
+
+.contact-card h3 {
+    color: var(--ice-blue);
+}
+
+.contact-card a {
+    color: var(--ice-blue);
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    color: white;
+    text-decoration: underline;
+}
