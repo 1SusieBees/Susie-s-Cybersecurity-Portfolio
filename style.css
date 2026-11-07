@@ -507,26 +507,58 @@ body {
 
 
 
-/* CONTACT CARD */
+/* ===== CONTACT SECTION ===== */
+
+.contact-section {
+    padding: 100px 7%;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 38px;
+    color: var(--ice-blue);
+    margin-bottom: 20px;
+}
+
+/* ===== CONTACT CARD ===== */
 
 .contact-card {
-    background-color: rgba(15, 25, 35, 0.94);
-    border-left: 3px solid var(--ice-blue);
-    border-radius: 8px;
-    padding: 25px;
-    margin-top: 15px;
+    background: rgba(18, 60, 45, 0.55);
+    border: 1px solid rgba(138, 232, 240, 0.2);
+    border-radius: 20px;
+    padding: 35px;
+    max-width: 700px;
+    margin: 25px auto;
+    text-align: center;
+
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 35px rgba(34, 111, 84, 0.35);
 }
 
 .contact-card h3 {
     color: var(--ice-blue);
+    font-size: 23px;
+    margin-bottom: 18px;
 }
 
-.contact-card a {
+.contact-card p {
+    color: var(--muted);
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.contact-card a,
+.contact-card a:visited {
     color: var(--ice-blue);
     text-decoration: none;
 }
 
 .contact-card a:hover {
-    color: white;
+    color: var(--white);
     text-decoration: underline;
 }
